@@ -1,0 +1,30 @@
+// *{
+//     background-image: url('../cards/фон.jpg');
+// }
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.cardsFlex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    & .card{
+        width: 250px;
+        height: 445px;
+        border: 1px solid black;
+        border-radius: 5%;
+        background-image: url('../cards/рубашка2.jpg');
+    }
+    
+}
+
+.animation{
+    transform: rotateY(-180deg);
+    transition: 1s;
+}
+
+
